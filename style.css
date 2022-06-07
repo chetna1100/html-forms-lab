@@ -8,3 +8,9 @@ form * {
   display:inline;
 
 }
+
+input[type=checkbox] {
+  display: inline;
+  width: 30px;
+}
+ input[type=submit]{ width: 60px;}

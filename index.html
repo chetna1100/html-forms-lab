@@ -12,37 +12,47 @@
 
     <!-- First, create a form tag where our inputs will be nested -->
 
-
+<form action="" method="get">
       <!-- Add a label for 'fullname'-->
-
+<label for="name">Owner Name:</label>
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
+      <input type="text" id="name" name="owner-name" placeholder="Enter Name" required>
       <!-- Include the place holder text "Enter Name" and make this input required -->
 
 
       <!-- Add a label for 'email'-->
-
+<label>Email:</label>
       <!-- Add a email input with the id and name attributes set to 'email' -->
+      <input type="email" id="email" name="email" placeholder="Enter Email" required>
       <!-- Include the place holder text "Enter Email" and make this input required -->
 
 
       <!-- Add a label for 'phone'-->
-
+<label> Phone:</label>
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
+      <input type="tel" id="phone" name="phone" placeholder="Enter Telephone (optional)">
       <!-- Include the place holder text "Enter Telephone (optional)" -->
 
 
       <!-- Add a label for 'message'-->
-
+<label>Message:</label>
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
+      <textarea name="textarea" id="message" rows="5" cols="3" placeholder="Enter Message"></textarea>
       <!-- Include the place holder text "Enter Message" -->
 
 
       <!-- Add a checkbox input with the id set to 'checkbox' -->
+<label id="checkbox">  What are your dogs favorite toys?
 
-
-
+<p><input type="checkbox" id="" name="" value="Kong">Kong </p>
+<p><input type="checkbox" id="" name="" value="Stuffed">Stuffed Animals</p>
+<p><input type="checkbox" id="" name="" value="Rope">Rope Toys</p>
+<p><input type="checkbox" id="" name="" value="Squeaky">Squeaky Toys</p>
+<p><input type="checkbox" id="" name="" value="fetch">Balls, Frisbees, anything a dog can fetch!</p>
+</label>
       <!-- Add an input with the type set to 'submit' -->
-
+      <input type="submit" value="Submit" />
+    </form>
     
   </body>
 </html>
